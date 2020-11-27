@@ -5,11 +5,9 @@
 .logo {
     width: 150px;
 }
-
 .imgaccueil {
     width: 55%;
 }
-
 /***************Textes**********************/
 
 h1, h3 {
@@ -21,16 +19,15 @@ h3 {
     font-size: 20px;
     line-height: 35px;
 }
-
-.blockquote {
+.blockquote{
     font-family: 'Poppins', sans-serif;
-
+    font-size: 15px;
     font-weight: 200;
     letter-spacing: 0.1em;
     margin-bottom: 30px;
 }
 
-.buttonaccueil button {
+.buttonaccueil button{
     font-family: 'Poppins', sans-serif;
     font-weight: 800;
     font-size: 16px;
