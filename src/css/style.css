@@ -1,11 +1,38 @@
-
 /*Page d'accueil*/
 
-.logo{
-    width: 250px;
+
+/***************Images**********************/
+.logo {
+    width: 150px;
 }
 
-h1{
+.imgaccueil {
+    width: 55%;
+}
+
+/***************Textes**********************/
+
+h1, h3 {
     font-family: 'Fredoka One', cursive;
+    letter-spacing: 0.2em;
+}
+
+h3 {
+    font-size: 20px;
+    line-height: 35px;
+}
+
+.blockquote {
+    font-family: 'Poppins', sans-serif;
+
+    font-weight: 200;
+    letter-spacing: 0.1em;
+    margin-bottom: 30px;
+}
+
+.buttonaccueil button {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    font-size: 16px;
 
 }
