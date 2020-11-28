@@ -5,10 +5,40 @@
 .logo {
     width: 150px;
 }
+
 .imgaccueil {
     width: 55%;
 }
+
 /***************Textes**********************/
+
+@media (max-width: 768px) {
+
+    .img {
+        display: none;
+    }
+
+    h1 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .choix h3 {
+        text-align: center;
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    .blockquote {
+        display: none;
+    }
+
+    body {
+        background-color: #E63946;
+    }
+
+}
+
 
 h1, h3 {
     font-family: 'Fredoka One', cursive;
@@ -19,7 +49,8 @@ h3 {
     font-size: 20px;
     line-height: 35px;
 }
-.blockquote{
+
+.blockquote {
     font-family: 'Poppins', sans-serif;
     font-size: 15px;
     font-weight: 200;
@@ -27,9 +58,40 @@ h3 {
     margin-bottom: 30px;
 }
 
-.buttonaccueil button{
+.buttonaccueil button {
     font-family: 'Poppins', sans-serif;
     font-weight: 800;
     font-size: 16px;
+
+}
+
+/****Page de connexion*******/
+
+h2 {
+    font-family: "Fredoka One", sans-serif;
+    letter-spacing: 0.1em;
+}
+
+em {
+    font-family: Poppins, sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    letter-spacing: 0.2em;
+}
+
+.form-group input {
+    border: #E63946 2px solid;
+
+}
+
+.formconnexion {
+    border: #E63946 2px solid;
+}
+
+form .btn {
+    background-color: #1D3557;
+    font-family: Poppins, sans-serif;
+    font-weight: 600;
+    color: white;
 
 }
