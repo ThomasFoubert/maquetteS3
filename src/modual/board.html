@@ -28,147 +28,149 @@
         </div>
     </nav>
 </header>
-<body>
-<div class="container d-flex">
-    <div class="profil">
-        <div class="general">
-            <img src="#" alt="img_profil">
-            <p class="name">Jeanne Holat</p>
-            <p class="naissance">17 Décembre 2001</p>
+
+
+<div class="container-fluid d-flex m-5">
+
+    <div class="col-sm-2 profil">
+        <div class="imgprofil">
+            <img src="../img/etudiante.jpg" alt="img_profil" style="width: 150px; border-radius: 90px;">
+        </div>
+        <div class="descriprofil text-center">
+            <h4 class="name">Jeanne Holat</h4>
+            <h6 class="naissance">17 Décembre 2001</h6>
             <p class="diplome_promo">DUT MMI 2021</p>
         </div>
-        <div class="etudes">
+        <div class="elemprofil">
+
             <h4>Etudes</h4>
             <p class="diplome_obtenu">Bac général S (scientifique)</p>
-        </div>
-        <div class="contact">
+
             <h4>Contact</h4>
             <p class="mail">khaddie90@gmail.com</p>
             <p class="tel">07.83.56.47.80</p>
-        </div>
-        <div class="social_network">
+
+
             <h4>Réseaux Sociaux</h4>
             <ul>
-                <li><a href="instagram.com">Instagram</a></li>
-                <li><a href="facebook.com">Facebook</a></li>
-                <li><a href="linkedIn.com">LinkedIn</a></li>
+                <li><i class="fab fa-instagram"></i></li>
+                <li><i class="fab fa-facebook-f"></i></li>
+                <li><i class="fab fa-linkedin"></i></li>
             </ul>
         </div>
-        <button><a href="#">Voir le profil</a></button>
+        <div class="profil d-flex justify-content-center">
+            <button type="submit" class="btn text-white">Voir profil</button>
+        </div>
     </div>
+    <div class="row ml-5">
+        <div class="col-sm-5 complexes">
+            <div class="fondelements mt-lg-4 p-lg-4">
+                <h3 class="text-center">MES PROJETS</h3>
+                <table class="unevaleur m-lg-5">
+                    <tr>
+
+                        <th>Année</th>
+                        <th>Projets</th>
+                        <th>Intitulé</th>
+
+                    </tr>
+
+                    <tr>
+
+                        <td>
+                            2016
+                        </td>
+                        <td>
+                            Projet Individuel
+                        </td>
+                        <td>
+                            Radiocativ'man
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            2016
+                        </td>
+                        <td>
+                            Projet collectif-S2
+                        </td>
+                        <td>
+                            Greengoods
+                        </td>
+                    </tr>
+                </table>
+                <div class="d-flex justify-content-center">
+                    <button type="submit" class="btn text-white">Ajouter</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-5 complexes">
+            <div class="fondelements mt-lg-4 p-lg-4">
+                <h3 class="text-center">MES STAGES</h3>
+                <table class=" unevaleur m-lg-5">
+                    <tr>
+                        <th>Durée</th>
+                        <th>Entreprises</th>
+                        <th>Fonction</th>
+                    </tr>
+                    <tr>
+                        <td>
+                            De Mars 2019 à Juin 2019
+                        </td>
+                        <td>
+                            Brand Agency
+                        </td>
+                        <td>
+                            Intégrateur Web
+                        </td>
+                    </tr>
+                </table>
+                <div class="d-flex justify-content-center">
+                    <button type="submit" class="btn text-white">Ajouter</button>
+                </div>
+            </div>
+
+        </div>
 
 
-    <div class="elements_complexes">
-        <h2>Mes Elements complexes</h2>
-        <div class="mesprojets">
-            <h2>Mes projets</h2>
-            <table>
-                <tr>
-                    <th>Année</th>
-                    <th>Projets</th>
-                    <th>Intitulé</th>
-                </tr>
-                <tr>
-                    <td>
-                        2016
-                    </td>
-                    <td>
-                        Projet Individuel
-                    </td>
-                    <td>
-                        Radiocativ'man
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        2016
-                    </td>
-                    <td>
-                        Projet collectif-S2
-                    </td>
-                    <td>
-                        Greengoods
-                    </td>
-                </tr>
-            </table>
-            <input type="submit" value="Ajouter">
+        <div class="col-sm-offset-2 col-sm-5">
+            <div class="promo">
+                <h3 class="text-center">MA PROMO</h3>
+                <div class="profilspromos">
+                    <img id="1" src="#" alt="#" height="40px" weight="40px">
+                    <img id="2" src="#" alt="#" height="40px" weight="40px">
+                    <img id="3" src="#" alt="#" height="40px" weight="40px">
+                    <img id="4" src="#" alt="#" height="40px" weight="40px">
+                    <img id="5" src="#" alt="#" height="40px" weight="40px">
+                </div>
+                <a href="#">Voir plus ...</a>
+            </div>
         </div>
-        <div class="messtages">
-            <h2>Mes Stages</h2>
-            <table>
-                <tr>
-                    <th>Durée</th>
-                    <th>Entreprises</th>
-                    <th>Fonction</th>
-                </tr>
-                <tr>
-                    <td>
-                        De Mars 2019 à Juin 2019
-                    </td>
-                    <td>
-                        Brand Agency
-                    </td>
-                    <td>
-                        Intégrateur Web
-                    </td>
-                </tr>
-            </table>
-            <input type="submit" value="Ajouter">
+        <div class="col-sm-5">
+            <div class="promo">
+                <h3 class="text-center">DERNIERES OFFRES</h3>
+                <table class="unevaleurr m-lg-3">
+                    <tr>
+                        <th>
+                            Date de publication
+                        </th>
+                        <th>
+                            Sujet
+                        </th>
+                        <th>
+                            Entreprises
+                        </th>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </table>
+                <a href="#">Voir plus ...</a>
+            </div>
         </div>
-    </div>
-    <div class="promo">
-        <h2>Ma Promo</h2>
-        <div class="profils-promos">
-            <img id="1" src="#" alt="#" height="40px" weight="40px">
-            <img id="2" src="#" alt="#" height="40px" weight="40px">
-            <img id="3" src="#" alt="#" height="40px" weight="40px">
-            <img id="4" src="#" alt="#" height="40px" weight="40px">
-            <img id="5" src="#" alt="#" height="40px" weight="40px">
-        </div>
-        <a href="#">Voir plus ...</a>
-    </div>
-    <div class="dernieres-offres">
-        <h2>Ma Promo</h2>
-        <table>
-            <tr>
-                <th>
-                    Date de publication
-                </th>
-                <th>
-                    Sujet
-                </th>
-                <th>
-                    Entreprises
-                </th>
-            </tr>
-            <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
-        </table>
-        <a href="#">Voir plus ...</a>
     </div>
 </div>
-</body>
-<footer>
-    <ul class="entreprise">
-        <li><h3>Entreprise</h3></li>
-        <li> Déposer une offre</li>
-    </ul>
-    <ul class="Etudiants">
-        <li><h3>Etudiants</h3></li>
-        <li>S'inscrire</li>
-        <li>Se connecter</li>
-        <li>Ma Promo</li>
-    </ul>
-    <ul class="vous-informer">
-        <li>Politique de confidentialité</li>
-        <li>Mentions légales</li>
-        <li>A propos</li>
-        <li>Contact</li>
-    </ul>
-    <img src="#" alt="logoIUTBM"/>
-</footer>
 </body>
 </html>
